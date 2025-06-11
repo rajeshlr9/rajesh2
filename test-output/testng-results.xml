@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="9" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="grouping" duration-ms="64" started-at="2025-06-08T05:49:42Z" finished-at="2025-06-08T05:49:42Z">
+    <groups>
+      <group name="Regression">
+        <method signature="SignUpTest.SignupByEmail()[pri:1, instance:day44.SignUpTest@49993335]" name="SignupByEmail" class="day44.SignUpTest"/>
+        <method signature="SignUpTest.SignupByFacebook()[pri:2, instance:day44.SignUpTest@49993335]" name="SignupByFacebook" class="day44.SignUpTest"/>
+        <method signature="SignUpTest.SignupByTwitter()[pri:3, instance:day44.SignUpTest@49993335]" name="SignupByTwitter" class="day44.SignUpTest"/>
+      </group> <!-- Regression -->
+      <group name="login sanity">
+        <method signature="SignUpTest.SignupByEmail()[pri:1, instance:day44.SignUpTest@49993335]" name="SignupByEmail" class="day44.SignUpTest"/>
+      </group> <!-- login sanity -->
+    </groups>
+    <test name="grouping test" duration-ms="64" started-at="2025-06-08T05:49:42Z" finished-at="2025-06-08T05:49:42Z">
+      <class name="day44.SignUpTest">
+        <test-method status="PASS" signature="SignupByEmail()[pri:1, instance:day44.SignUpTest@49993335]" name="SignupByEmail" duration-ms="23" started-at="2025-06-08T11:19:42Z" finished-at="2025-06-08T11:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupByEmail -->
+        <test-method status="PASS" signature="SignupByFacebook()[pri:2, instance:day44.SignUpTest@49993335]" name="SignupByFacebook" duration-ms="2" started-at="2025-06-08T11:19:42Z" finished-at="2025-06-08T11:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupByFacebook -->
+        <test-method status="PASS" signature="SignupByTwitter()[pri:3, instance:day44.SignUpTest@49993335]" name="SignupByTwitter" duration-ms="2" started-at="2025-06-08T11:19:42Z" finished-at="2025-06-08T11:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupByTwitter -->
+      </class> <!-- day44.SignUpTest -->
+    </test> <!-- grouping test -->
+  </suite> <!-- grouping -->
+</testng-results>
